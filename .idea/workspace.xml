@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65537a12-7dc5-4252-9bca-443916bbcbaf" name="Changes" comment="initial commit">
+    <list default="true" id="65537a12-7dc5-4252-9bca-443916bbcbaf" name="Changes" comment="changed the contact number">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +176,7 @@
       <workItem from="1685035920242" duration="1805000" />
       <workItem from="1685038089956" duration="3357000" />
       <workItem from="1685041480100" duration="1188000" />
-      <workItem from="1685042691366" duration="641000" />
+      <workItem from="1685042691366" duration="1410000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685041847197</created>
@@ -199,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685042881186</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="changed the contact number">
+      <created>1685043455831</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685043455831</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +225,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="changed the contact number" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed the contact number" />
   </component>
 </project>
