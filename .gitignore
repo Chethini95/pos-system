@@ -1,0 +1,7 @@
+**/.idea/
+**/node_modules
+**/*.iml
+**/out
+**/target
+**/.vscode
+/front-end/node_modules/
