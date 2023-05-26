@@ -9,40 +9,45 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.sql.*;
-@CrossOrigin
+
 @RestController
 @RequestMapping("/customers")
+@CrossOrigin
 public class CustomerController {
 
     @Autowired
     private BasicDataSource pool;
 
-
     @PostMapping
-    public ResponseEntity saveCustomer(@RequestBody CustomerDTO customer){
-        try (Connection connection= pool.getConnection()){
-            PreparedStatement stm=connection.prepareStatement("INSERT INTO Customer (name, address, contact) VALUES (?,?,?)",
-                    Statement.RETURN_GENERATED_KEYS);
+    public ResponseEntity<?> saveCustomer(@RequestBody CustomerDTO customer){
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        try (Connection connection = pool.getConnection()) {
+            PreparedStatement stm = connection.prepareStatement
+                    ("INSERT INTO Customer (name, address, contact) VALUES (?,?,?)",
+                            Statement.RETURN_GENERATED_KEYS);
             stm.setString(1, customer.getName());
             stm.setString(2, customer.getAddress());
             stm.setString(3, customer.getContact());
             stm.executeUpdate();
-            ResultSet generatedKeys= stm.getGeneratedKeys();
+            ResultSet generatedKeys = stm.getGeneratedKeys();
             generatedKeys.next();
-            int id= generatedKeys.getInt(1);
+            int id = generatedKeys.getInt(1);
             customer.setId(id);
             return new ResponseEntity<>(customer, HttpStatus.CREATED);
         } catch (SQLException e) {
-            if (e.getSQLState().equals(23000)){
-                //contact number already exist
-                return new ResponseEntity<>(new ResponseErrorDTO(HttpStatus.CONFLICT.value(),e.getMessage())
-                ,HttpStatus.CONFLICT);
-            }else {
-                return new ResponseEntity<>(new ResponseErrorDTO(500,e.getMessage()),
+            if (e.getSQLState().equals("23000")){
+                return new ResponseEntity<>(
+                        new ResponseErrorDTO(HttpStatus.CONFLICT.value(),e.getMessage()),
+                        HttpStatus.CONFLICT);
+            }else{
+                return new ResponseEntity<>(
+                        new ResponseErrorDTO(500, e.getMessage()),
                         HttpStatus.INTERNAL_SERVER_ERROR);
-
             }
         }
-
     }
 }

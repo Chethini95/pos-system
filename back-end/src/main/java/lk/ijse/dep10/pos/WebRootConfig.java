@@ -6,9 +6,10 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class WebRootConfig {
+
     @Bean
     public BasicDataSource dataSource(){
-        BasicDataSource bds=new BasicDataSource();
+        BasicDataSource bds = new BasicDataSource();
         bds.setUsername("root");
         bds.setPassword("mysql");
         bds.setDriverClassName("com.mysql.cj.jdbc.Driver");
@@ -16,6 +17,5 @@ public class WebRootConfig {
         bds.setMaxTotal(50);
         bds.setInitialSize(20);
         return bds;
-
     }
 }
