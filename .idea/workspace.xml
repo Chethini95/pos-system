@@ -9,21 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65537a12-7dc5-4252-9bca-443916bbcbaf" name="Changes" comment="created the items table">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/css/manage-items.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/js/manage-items.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/936e0431-c0c8-4eb3-9eaf-65e4450b99c5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/936e0431-c0c8-4eb3-9eaf-65e4450b99c5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/lk/ijse/dep10/pos/WebAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/lk/ijse/dep10/pos/WebAppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/lk/ijse/dep10/pos/WebAppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/lk/ijse/dep10/pos/WebAppInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/lk/ijse/dep10/pos/WebRootConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/lk/ijse/dep10/pos/WebRootConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/lk/ijse/dep10/pos/api/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/lk/ijse/dep10/pos/api/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/lk/ijse/dep10/pos/dto/CustomerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/lk/ijse/dep10/pos/dto/CustomerDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/lk/ijse/dep10/pos/dto/ResponseErrorDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/lk/ijse/dep10/pos/dto/ResponseErrorDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/resources/schema.sql" afterDir="false" />
+    <list default="true" id="65537a12-7dc5-4252-9bca-443916bbcbaf" name="Changes" comment="Edited the manage-items.html">
+      <change beforePath="$PROJECT_DIR$/front-end/js/manage-items.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/js/manage-items.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/manage-items.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/manage-items.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -195,7 +182,7 @@
       <workItem from="1685041480100" duration="1188000" />
       <workItem from="1685042691366" duration="3949000" />
       <workItem from="1685065870538" duration="223000" />
-      <workItem from="1685066363897" duration="5325000" />
+      <workItem from="1685066363897" duration="6776000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685041847197</created>
@@ -246,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685069494287</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Edited the manage-items.html">
+      <created>1685071776236</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685071776236</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +262,7 @@
     <MESSAGE value="changed the contact number" />
     <MESSAGE value="initial" />
     <MESSAGE value="created the items table" />
-    <option name="LAST_COMMIT_MESSAGE" value="created the items table" />
+    <MESSAGE value="Edited the manage-items.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited the manage-items.html" />
   </component>
 </project>
