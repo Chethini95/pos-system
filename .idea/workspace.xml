@@ -9,8 +9,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65537a12-7dc5-4252-9bca-443916bbcbaf" name="Changes" comment="Edited the manage-items.html">
+    <list default="true" id="65537a12-7dc5-4252-9bca-443916bbcbaf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/lk/ijse/dep10/pos/api/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/lk/ijse/dep10/pos/dto/ItemDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/lk/ijse/dep10/pos/api/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/lk/ijse/dep10/pos/api/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/target/back-end-1.0.0/WEB-INF/classes/lk/ijse/dep10/pos/api/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/target/back-end-1.0.0/WEB-INF/classes/lk/ijse/dep10/pos/api/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/target/back-end-1.0.0/WEB-INF/classes/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/target/back-end-1.0.0/WEB-INF/classes/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/target/classes/lk/ijse/dep10/pos/api/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/target/classes/lk/ijse/dep10/pos/api/CustomerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/target/classes/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/target/classes/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/js/manage-customers.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/js/manage-customers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/js/manage-items.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/js/manage-items.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/manage-customers.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/manage-customers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/manage-items.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/manage-items.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -51,34 +65,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/home/chethini/Documents/Dep-10/pos-system",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "spring.configuration.checksum": "a115a25065b29adfe4c0b73391cd5b3a",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/chethini/Documents/pos-system/back-end/pom.xml&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;a115a25065b29adfe4c0b73391cd5b3a&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="front-end" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="front-end" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.73" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.73" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -182,7 +209,9 @@
       <workItem from="1685041480100" duration="1188000" />
       <workItem from="1685042691366" duration="3949000" />
       <workItem from="1685065870538" duration="223000" />
-      <workItem from="1685066363897" duration="6776000" />
+      <workItem from="1685066363897" duration="24246000" />
+      <workItem from="1685119665792" duration="651000" />
+      <workItem from="1685275360668" duration="6509000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1685041847197</created>
@@ -240,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685071776236</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Edited the manage-items.html (2)">
+      <created>1685073294013</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685073294013</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +299,7 @@
     <MESSAGE value="initial" />
     <MESSAGE value="created the items table" />
     <MESSAGE value="Edited the manage-items.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited the manage-items.html" />
+    <MESSAGE value="Edited the manage-items.html (2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited the manage-items.html (2)" />
   </component>
 </project>

@@ -41,8 +41,8 @@
                 </a>
             </li>
             <li>
-                <a href="manage-customers.html" class="nav-link active py-3 border-bottom rounded-0"
-                   title="Manage Customers" data-bs-toggle="tooltip" data-bs-placement="right">
+                <a href="manage-customers.html" class="nav-link  py-3 border-bottom rounded-0"
+                   title="Manage Items" data-bs-toggle="tooltip" data-bs-placement="right">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                          class="bi bi-person-bounding-box" viewBox="0 0 16 16">
                         <path
@@ -52,7 +52,7 @@
                 </a>
             </li>
             <li>
-                <a href="manage-items.html" class="nav-link py-3 border-bottom rounded-0" title="Manage Items"
+                <a href="manage-items.html" class="nav-link active py-3 border-bottom rounded-0" title="Manage Items"
                    data-bs-toggle="tooltip" data-bs-placement="right">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                          class="bi bi-diagram-3-fill" viewBox="0 0 16 16">
@@ -107,9 +107,9 @@
             <tbody>
             <tr>
                 <td class="text-center">I001</td>
-                <td></td>
-                <td class="d-none d-xl-table-cell"></td>
-                <td class="contact text-center"></td>
+                <td>KeyBoards</td>
+                <td class="d-none d-xl-table-cell">150</td>
+                <td class="contact text-center">2000.00</td>
                 <td>
                     <div class="actions d-flex gap-3 justify-content-center">
                         <svg data-bs-toggle="tooltip" data-bs-title="Edit Item" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
@@ -132,7 +132,7 @@
             </tbody>
             <tfoot>
             <tr>
-                <td class="text-center" colspan="5">No item record is found!</td>
+                <td class="text-center" colspan="5">No Items records are found!</td>
             </tr>
             </tfoot>
         </table>
@@ -149,28 +149,29 @@
             </div>
             <div class="modal-body text-center">
                 <div class="mb-3">
-                    <label for="txt-code" class="form-label">Item Code</label>
-                    <input type="text" class="form-control text-center" id="txt-code" placeholder="Generated Item Code"
+                    <label for="txt-code" class="form-label">Code</label>
+                    <input type="text" class="form-control text-center" id="txt-code" placeholder="Generated Code"
                            disabled>
                 </div>
-            </div>
-            <div class="modal-body text-center">
                 <div class="mb-3">
-                    <label for="txt-description" class="form-label">Item Description</label>
-                    <input type="text" class="form-control text-center" id="txt-description">
-                </div>
-                <div class="mb-3">
-                    <label for="txt-price" class="form-label">Unit Price</label>
-                    <input type="text" class="form-control text-center" id="txt-price">
+                    <label for="txt-description" class="form-label">Description</label>
+                    <input type="text" class="form-control text-center" id="txt-description" placeholder="Eg. Mouse">
                     <div class="invalid-feedback">
-                        Unit price can't be empty
+                        Description can't be empty
                     </div>
                 </div>
                 <div class="mb-3">
-                    <label for="txt-stock" class="form-label">Initial Stock</label>
-                    <input type="text" class="form-control text-center" id="txt-stock" >
+                    <label for="txt-quantity" class="form-label">Quantity</label>
+                    <input type="text" class="form-control text-center" id="txt-quantity" placeholder="Eg. 100">
                     <div class="invalid-feedback">
-                        Initial stock can't be empty
+                        Quantity can't be empty
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="txt-price" class="form-label">Price</label>
+                    <input type="text" class="form-control text-center" id="txt-price" placeholder="Eg. 2000.00">
+                    <div class="invalid-feedback">
+                        Price can't be empty
                     </div>
                 </div>
             </div>
@@ -178,7 +179,7 @@
                 <div id="loader">
                     <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
                 </div>
-                <button id="btn-save" type="button" class="btn btn-primary">Save Item</button>
+                <button id="btn-save" type="button" class="btn btn-primary">Save item</button>
             </div>
         </div>
     </div>
@@ -197,3 +198,5 @@
 </body>
 
 </html>
+
+

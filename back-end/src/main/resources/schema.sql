@@ -12,5 +12,5 @@ CREATE TABLE IF NOT EXISTS Items (
     id INT AUTO_INCREMENT PRIMARY KEY ,
     description VARCHAR(200) NOT NULL ,
     quantity INT NOT NULL ,
-    price DECIMAL
+    price DECIMAL NOT NULL
 );

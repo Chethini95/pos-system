@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS customer
+CREATE TABLE IF NOT EXISTS Customer
 (
     id      INT AUTO_INCREMENT PRIMARY KEY,
     name    VARCHAR(100) NOT NULL,
@@ -6,4 +6,11 @@ CREATE TABLE IF NOT EXISTS customer
     contact VARCHAR(20)  NOT NULL
 );
 
-ALTER TABLE customer ADD CONSTRAINT uk_contact UNIQUE (contact);
+ALTER TABLE Customer ADD CONSTRAINT uk_contact UNIQUE (contact);
+
+CREATE TABLE IF NOT EXISTS Items (
+    id INT AUTO_INCREMENT PRIMARY KEY ,
+    description VARCHAR(200) NOT NULL ,
+    quantity INT NOT NULL ,
+    price DECIMAL
+);
